@@ -1,0 +1,12 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      #利用【公益】开放一台Eureka注册中心给各位Spring Cloud爱好者
+      #Dashboard ： http://eureka.didispace.com/
+      #defaultZone: http://eureka.didispace.com/eureka/
+server:
+  port: 8762
+spring:
+  application:
+    name: eureka-client

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: microservice-eureka-consumer
+server:
+  port: 2101
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://eureka.didispace.com/eureka/
+      defaultZone: http://localhost:8761/eureka/
