@@ -5,6 +5,7 @@
 ## 云原生应用(Cloud-Native)介绍：
 <div  align="center">    
  <img src="http://oosk9q3p6.bkt.clouddn.com/lab_contrast.png" width = "200" height = "200" alt="云原生" align=center />
+ <h4>云原生黄金三角</h4>
 </div>
 
 > 云原生包含了一组应用的模式，用于帮助企业快速，持续，可靠，规模化地交付业务软件。
