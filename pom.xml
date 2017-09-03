@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.tanjianff.microservice</groupId>
-    <artifactId>microservice-study-demo</artifactId>
+    <artifactId>MicroService-Study-Samples</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
