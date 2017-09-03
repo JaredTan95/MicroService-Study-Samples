@@ -3,7 +3,10 @@
 >微服务(Microservices)架构以及云原生应用(Cloud-Native)学习示例，主要涉及Spring Cloud、Docker等技术。
 
 ## 云原生应用(Cloud-Native)介绍：
-![云原生应用][1]
+<div  align="center">    
+ <img src="http://oosk9q3p6.bkt.clouddn.com/lab_contrast.png" width = "200" height = "200" alt="云原生" align=center />
+</div>
+
 > 云原生包含了一组应用的模式，用于帮助企业快速，持续，可靠，规模化地交付业务软件。
 云原生由以下几个部分组成：微服务架构，DevOps 和以容器为代表的敏捷基础架构。
 
@@ -24,6 +27,3 @@
 * Eureka 服务注册与发现
 > 服务注册与发现-microservice-discovery-eureka-server
 *
-
-
-  [1]: ./images/lab_contrast_2.png "云原生应用"
