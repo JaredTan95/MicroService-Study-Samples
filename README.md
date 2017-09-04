@@ -25,5 +25,11 @@
     </tr>
 </table>
 
-*  Eureka 服务注册与发现
-> 服务注册与发现-microservice-discovery-eureka-server
+*** 
+```markdown
+1 Eureka 服务注册与发现:
+服务注册与发现-microservice-discovery-eureka-server
+运行示例：
+> cd ./microservice-discovery-eureka-server/
+> mvn spring-boot:run
+```
