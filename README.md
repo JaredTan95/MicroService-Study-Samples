@@ -11,7 +11,7 @@
 > 云原生包含了一组应用的模式，用于帮助企业快速，持续，可靠，规模化地交付业务软件。
 云原生由以下几个部分组成：微服务架构，DevOps 和以容器为代表的敏捷基础架构。
 
-## 相关介绍
+## 云原生相关介绍
 <table>
     <tr>
         <th>微服务架构</th>
@@ -25,11 +25,12 @@
     </tr>
 </table>
 
-传统架构  | 微服务架构
-------------- | -------------
-![传统架构][1]  | ![][2]
-Content Cell  | Content Cell
+## 对比
 
+ 传统架构   |  微服务架构
+------------- | -------------
+<img align="center" src="http://oosk9q3p6.bkt.clouddn.com/micro_contrast1.png" style="width:700px;height:180px;"/>  | <img align="center" src="http://oosk9q3p6.bkt.clouddn.com/micro_contrast2.png" style="width:300px;height:300px;"/>
+传统单体应用架构庞大且难以扩展，不能满足互联网时代又快又好的需求。  | 使用分而治之的方式，将一个复杂系统分解为一组微服务，微服务之间是松耦合的，每个微服务只关注于一个业务功能，可以由不同的独立团队开发，从而满足互联网时代又快又好的要求。
 
 *** 
 ```markdown
