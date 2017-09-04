@@ -3,7 +3,6 @@ spring:
     name: eureka-server
 server:
   port: 8761                    # 指定该Eureka实例的端口
-
 eureka:
   instance:
     hostname: localhost       # 指定该Eureka实例的主机名
