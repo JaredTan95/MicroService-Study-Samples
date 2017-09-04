@@ -25,6 +25,12 @@
     </tr>
 </table>
 
+传统架构  | 微服务架构
+------------- | -------------
+![传统架构][1]  | ![][2]
+Content Cell  | Content Cell
+
+
 *** 
 ```markdown
 1 Eureka 服务注册与发现:
@@ -33,3 +39,7 @@
 > cd ./microservice-discovery-eureka-server/
 > mvn spring-boot:run
 ```
+
+
+  [1]: http://oosk9q3p6.bkt.clouddn.com/micro_contrast1.png
+  [2]: http://oosk9q3p6.bkt.clouddn.com/micro_contrast2.png
