@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eureka-consumer-ribbon
+server:
+  port: 2102
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://eureka.didispace.com/eureka/
+      defaultZone: http://localhost:8761/eureka/
