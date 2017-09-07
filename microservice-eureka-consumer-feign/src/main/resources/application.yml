@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eureka-consumer-feign
+server:
+  port: 2103
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://eureka.didispace.com/eureka/
+      defaultZone: http://localhost:8761/eureka/
