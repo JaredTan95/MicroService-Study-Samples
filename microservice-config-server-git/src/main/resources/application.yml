@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/WesleySugarFree/microservice-config-repo-samples.git
+server:
+  port: 1201
+
+
