@@ -17,6 +17,10 @@
         <module>microservice-discovery-eureka-server</module>
         <module>microservice-discovery-eureka-client</module>
         <module>microservice-eureka-consumer</module>
+        <module>microservice-eureka-consumer-ribbon</module>
+        <module>microservice-eureka-consumer-feign</module>
+        <module>microservice-config-server-git</module>
+        <module>microservice-config-client</module>
     </modules>
 
     <properties>
@@ -24,24 +28,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.6.RELEASE</version>
-    </parent>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Dalston.SR3</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
+<!--
 
     <dependencies>
         <dependency>
@@ -75,7 +63,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-    </dependencies>
+    </dependencies>-->
 
     <build>
         <plugins>
