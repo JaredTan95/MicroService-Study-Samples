@@ -22,6 +22,8 @@
         <module>microservice-config-server-git</module>
         <module>microservice-config-client</module>
         <module>microservice-eureka-consumer-ribbon-hystrix</module>
+        <module>microservice-hystrix-dashboard</module>
+        <module>microservice-turbine-http</module>
     </modules>
 
     <properties>

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: microservice-turbine-http
+server:
+  port: 8989
+management:
+  port: 8990
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://eureka.didispace.com/eureka/
+      defaultZone: http://localhost:8761/eureka/
+turbine:
+  app-config: eureka-consumer-ribbon-hystrix
+  cluster-name-expression: "'default'"
+  combine-host-port: true
