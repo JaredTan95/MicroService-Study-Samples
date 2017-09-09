@@ -14,9 +14,12 @@ public class DcController {
     @Autowired
     DiscoveryClient discoveryClient;
     @GetMapping("/dc")
-    public String dc() {
+    public String dc() throws InterruptedException {
+        //为了触发服务降级逻辑，我们可以将服务提供者eureka-client的逻辑加一些延迟，比如：
+        Thread.sleep(5000L);
         String services = "Services: " + discoveryClient.getServices();
         System.out.println(services);
         return services;
     }
+
 }
