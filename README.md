@@ -32,10 +32,4 @@
 <img align="center" src="http://oosk9q3p6.bkt.clouddn.com/micro_contrast1.png" style="width:700px;height:180px;"/>  | <img align="center" src="http://oosk9q3p6.bkt.clouddn.com/micro_contrast2.png" style="width:300px;height:300px;"/> 
 传统单体应用架构庞大且难以扩展，不能满足互联网时代又快又好的需求。| 使用分而治之的方式，将一个复杂系统分解为一组微服务，微服务之间是松耦合的，每个微服务只关注于一个业务功能，可以由不同的独立团队开发，从而满足互联网时代又快又好的要求。
 
-```markdown
-1 Eureka 服务注册与发现:
-服务注册与发现-microservice-discovery-eureka-server
-运行示例：
-> cd ./microservice-discovery-eureka-server/
-> mvn spring-boot:run
-```
+
