@@ -1,7 +1,9 @@
 ##ignore this file##
 /target/
+*/target
 .classpath
 .project
+.settings/
 .settings
  ##filter databfile、sln file##
 *.mdb
@@ -45,12 +47,13 @@ Thumbs.db
 
 # idea Files
 .idea
+/.idea
 *.iml
 target
+target/
 
 # log Files
 *.log
-
 # 备注：
 # /target/ ：过滤文件设置，表示过滤这个文件夹
 # *.mdb  ，*.ldb  ，*.sln 表示过滤某种类型的文件
