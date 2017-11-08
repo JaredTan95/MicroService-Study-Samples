@@ -25,6 +25,7 @@
         <module>microservice-hystrix-dashboard</module>
         <module>microservice-turbine-http</module>
         <module>microservice-admin-ui</module>
+        <module>microservice-api-gateway</module>
     </modules>
 
     <properties>
