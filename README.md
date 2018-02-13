@@ -1,7 +1,6 @@
 # MicroService-Study-Samples
-
 >微服务(Microservices)架构以及云原生应用(Cloud-Native)学习示例，主要涉及Spring Cloud、Docker等技术。<br/>
-相关项目TMCloud:https://github.com/WesleySugarFree/TMCloud
+相关项目TMCloud:https://github.com/JaredTan95/TMCloud
 
 ## 云原生应用(Cloud-Native)介绍：
 <div  align="center">    
@@ -32,5 +31,7 @@
 ------------- | -------------
 <img align="center" src="http://oosk9q3p6.bkt.clouddn.com/micro_contrast1.png" style="width:700px;height:180px;"/>  | <img align="center" src="http://oosk9q3p6.bkt.clouddn.com/micro_contrast2.png" style="width:300px;height:300px;"/> 
 传统单体应用架构庞大且难以扩展，不能满足互联网时代又快又好的需求。| 使用分而治之的方式，将一个复杂系统分解为一组微服务，微服务之间是松耦合的，每个微服务只关注于一个业务功能，可以由不同的独立团队开发，从而满足互联网时代又快又好的要求。
+
+ref:ref:https://www.daocloud.io/labs
 
 
